@@ -35,8 +35,8 @@ Modified by Elisha Shaddock to add Quadrature Rotary Encoder Support
 #define MATRIX_COLS 4
 
 /* 9Key PCB default pin-out */
-#define MATRIX_ROW_PINS { D1, D0, D4, B1, B3, B2 } // Last 3: SW, DT, and CLK from Encoder
-#define MATRIX_COL_PINS { F4, F5, F6, B5 }         // Last pin: Tied to ground from Encoder
+#define MATRIX_ROW_PINS { D1, D0, D4, B2, B6, B5 } // Last 3: SW, DT, and CLK from Encoder
+#define MATRIX_COL_PINS { F4, F5, F6, B1 }         // Last pin: Tied to ground from Encoder
 #define UNUSED_PINS
 
 /* ws2812 RGB LED */

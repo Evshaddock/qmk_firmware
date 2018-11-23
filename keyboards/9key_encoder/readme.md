@@ -1,7 +1,7 @@
 9Key Quadrature Encoder Mod
 ===
 
-####Modification of the 9Key firmware to allow for Quadrature Encoders by Elisha Shaddock
+**Modification of the 9Key firmware to allow for Quadrature Encoders by Elisha Shaddock**
 
 ![9key_encoder](https://i.imgur.com/fcio7RV.jpg)
 
@@ -16,14 +16,14 @@ Video of process to come, for now, the current bindings are:
 The encoders pads and button are read as part of the main key matrix as apposed to being read seperately as in the official encoder implementation
 This is the layout of the matrix
 
-      | COL 1 | COL 2 | COL 3 | COL 4  
-:---: | :---: | :---: | :---: | :---:
-ROW 1 |   1   |   2   |   3   |  N/A
-ROW 2 |   4   |   5   |   6   |  N/A
-ROW 3 |   7   |   8   | 9/ FN |  N/A
-ROW 4 |  N/A  |  N/A  |  N/A  |  SW
-ROW 5 |  N/A  |  N/A  |  N/A  |  DT
-ROW 6 |  N/A  |  N/A  |  N/A  |  CLK
+COL2ROW| COL 1 | COL 2 | COL 3 | COL 4  
+:---:|:---:|:---:|:---:|:---:
+**ROW 1** | 1 | 2 | 3 | N/A
+**ROW 2** | 4 | 5 | 6 | N/A
+**ROW 3** | 7 | 8 | 9/FN | N/A
+**ROW 4** | N/A | N/A | N/A | SW
+**ROW 5** | N/A | N/A | N/A | DT
+**ROW 6** | N/A | N/A | N/A | CLK
 
 You can find a short build guide with pictures [HERE](https://imgur.com/gallery/N7z9zTr)
 

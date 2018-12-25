@@ -53,14 +53,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |-------+-------+-------|
  * |numlock|   .   |       |
  * `-----------------------|
- *                 | NEXT  | Clicking the Encoder - Next Track
+ *                 | NEXT  | Clicking the Encoder - Next Track 
  *                 |-------|
  *                 | SCROLL| Rotating the Encoder - Scroll Wheel
  *                 `-------'
  */
 
 [2] = LAYOUT( \
-  KC_ESC,   KC_KP_PLUS,  KC_KP_MINS,  KC_NO,   \
+  KC_ESC,   KC_PPLS,  KC_PMNS,  KC_NO,   \
   KC_BSPC,  KC_PAST,  KC_PSLS,  KC_NO,   \
   KC_NLCK, KC_PDOT,   KC_TRNS,  KC_NO,   \
   KC_NO,    KC_NO,    KC_NO,    KC_MNXT, \
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 qk_tap_dance_action_t tap_dance_actions[] = {
-  [ENT_5] = ACTION_TAP_DANCE_DOUBLE(KC_KP_5, KC_KP_ENT),
+  [ENT_5] = ACTION_TAP_DANCE_DOUBLE(KC_KP_5, KC_PENT),
   [ZERO_1] = ACTION_TAP_DANCE_DOUBLE(KC_KP_1, KC_KP_0)
 };
 
